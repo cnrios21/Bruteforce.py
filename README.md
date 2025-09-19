@@ -1,9 +1,16 @@
-# Bruteforce.py
+# BruteforceDemo
 
-<img width="407" height="348" alt="image" src="https://github.com/user-attachments/assets/79f0bb90-c36e-4420-93bb-6d514aa0f84f" />
+Demo simple de fuerza bruta en Python. Sirve para entender cómo escala el número de combinaciones al crecer la longitud y el tamaño del alfabeto.
 
-# Autonomo 1 Seguridad
+## Archivos
+- `bruteforce.py` : script principal.
 
-#Reflexión: ¿qué pasa si la contraseña tiene 8+ caracteres y usa mayúsculas, números y símbolos?
+## Requisitos
+- Python 3.8+
+- Opcional: entorno virtual (recomendado).
 
-Si la contraseña tiene muchos digitos el programa se demora mas en decifrar la contraseña
+## Ejecución (PowerShell / Terminal)
+```powershell
+python bruteforce.py -p abc -A lower -m 3
+python bruteforce.py -p 123 -A digits -m 3
+python bruteforce.py -p ABC1 -A alnum -m 4

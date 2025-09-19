@@ -14,6 +14,10 @@ Programa simple de fuerza bruta en Python. Sirve para entender cómo escala el n
 
 <img width="542" height="528" alt="image" src="https://github.com/user-attachments/assets/b4aaefd6-8322-4ca9-9484-951ccd2c4b31" />
 
+## Grafica
+
+<img width="797" height="633" alt="image" src="https://github.com/user-attachments/assets/e54ff3ac-78b2-47c6-ae13-25a8eecd1f41" />
+
 
 ## Reflexion
 

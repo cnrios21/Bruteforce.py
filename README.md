@@ -21,6 +21,15 @@ Programa simple de fuerza bruta en Python. Sirve para entender cómo escala el n
 
 Lo que sucede es que el programa se demora mas tiempo en decifrar la contraseña porque tiene mas digitos.
 
+## Ejecución automatizada (GitHub Actions)
+
+Este repo incluye un workflow que ejecuta `python bruteforce.py -p abc -A lower -m 3` en cada `push`.  
+Puedes ver el resultado en la pestaña **Actions** del repo.
+
+Badge de estado:
+
+[![Workflow](https://github.com/cnrios21/Bruteforce.py/actions/workflows/python-app.yml/badge.svg)](https://github.com/cnrios21/Bruteforce.py/actions)
+
 
 ## Ejecución (PowerShell / Terminal)
 ```powershell

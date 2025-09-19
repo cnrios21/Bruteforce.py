@@ -14,7 +14,8 @@ Demo simple de fuerza bruta en Python. Sirve para entender cómo escala el núme
 
 <img width="542" height="528" alt="image" src="https://github.com/user-attachments/assets/b4aaefd6-8322-4ca9-9484-951ccd2c4b31" />
 
-##Reflexion
+
+## Reflexion
 
 ¿qué pasa si la contraseña tiene 8+ caracteres y usa mayúsculas, números y símbolos?
 

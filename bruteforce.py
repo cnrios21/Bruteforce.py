@@ -12,10 +12,7 @@ def generar_combinaciones(longitud):
     return itertools.product(ALFABETO, repeat=longitud)
 
 def fuerza_bruta(contraseña_objetivo, max_longitud=None, verbose=True):
-    """
-    Intenta contraseñas por fuerza bruta. Guarda tiempo por cada longitud
-    probada en las listas globales longitudes, tiempos.
-    """
+
     intentos = 0
     if max_longitud is None:
         max_longitud = len(contraseña_objetivo)
